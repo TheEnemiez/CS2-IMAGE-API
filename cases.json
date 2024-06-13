@@ -2,7 +2,7 @@
 	{
 		"case_id": 0,
 		"name": "CS:GO Weapon Case",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Cases/1.png?token=GHSAT0AAAAAACTBZ74HCKGRQUAZNQT7RQFQZTLB52A",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Cases/1.png",
 		"skins": {
 			"mil_spec": [1, 2, 3],
 			"restricted": [4, 5, 6],
