@@ -1,0 +1,65 @@
+[
+	{
+		"skin_id": 1,
+		"name": "MP7 | Skulls",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/mp7_skulls_0.png?token=GHSAT0AAAAAACTBZ74HOOVMPVTYLNHMIXDWZTLB45A",
+		"rarity": "mil_spec",
+		"cases": [1]
+	},
+	{
+		"skin_id": 2,
+		"name": "SG 553 | Ultraviolet",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/sg_553_ultraviolet_0.png?token=GHSAT0AAAAAACTBZ74HIYL4RNE3L22GYKXMZTLCI4A",
+		"rarity": "mil_spec",
+		"cases": [1]
+	},
+	{
+		"skin_id": 3,
+		"name": "AUG | Wings",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/aug_wings_0.png?token=GHSAT0AAAAAACTBZ74GB3P7T2DFTSNHPDYUZTLCH2Q",
+		"rarity": "mil_spec",
+		"cases": [1]
+	},
+	{
+		"skin_id": 4,
+		"name": "M4A1-S | Dark Water",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m4a1-s_dark_water_0.png?token=GHSAT0AAAAAACTBZ74HOR6JXOA7H66PZZFQZTLCRYA",
+		"rarity": "restricted",
+		"cases": [1]
+	},
+	{
+		"skin_id": 5,
+		"name": "USP-S | Dark Water",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/usp-s_dark_water_0.png?token=GHSAT0AAAAAACTBZ74HPGLHOR7WPHZPS7IMZTLCR4A",
+		"rarity": "restricted",
+		"cases": [1]
+	},
+	{
+		"skin_id": 6,
+		"name": "Glock-18 | Dragon Tattoo",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/glock-18_dragon_tattoo_0.png?token=GHSAT0AAAAAACTBZ74GAWGFW36YXXNO5WGGZTLCRTQ",
+		"rarity": "restricted",
+		"cases": [1]
+	},
+	{
+		"skin_id": 7,
+		"name": "Desert Eagle | Hypnotic",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/desert_eagle_hypnotic_0.png?token=GHSAT0AAAAAACTBZ74HBSLQKPDYK3JTJFIWZTLCRPA",
+		"rarity": "classified",
+		"cases": [1]
+	},
+	{
+		"skin_id": 8,
+		"name": "AK-47 | Case Hardened",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/ak-47_case_hardened_0.png?token=GHSAT0AAAAAACTBZ74HUGGNGXQAYVL35RTIZTLCREQ",
+		"rarity": "classified",
+		"cases": [1]
+	},
+	{
+		"skin_id": 9,
+		"name": "AWP | Lightning Strike",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/awp_lightning_strike_0.png?token=GHSAT0AAAAAACTBZ74HFD7JE2PA72YNYB5MZTLCRLQ",
+		"rarity": "covert",
+		"cases": [1]
+	}
+]
