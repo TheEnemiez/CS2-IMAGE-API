@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
 	{
 		"case_id": 0,
@@ -12,3 +13,18 @@
 		}
 	}
 ]
+=======
+[
+	{
+		"case_id": 0,
+		"name": "CS:GO Weapon Case",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Cases/1.png",
+		"skins": {
+			"mil_spec": [1, 2, 3],
+			"restricted": [4, 5, 6],
+			"classified": [7, 8],
+			"covert": 9
+		}
+	}
+]
+>>>>>>> 437d3fc3d0912cc2460544b31f78db7016e11c2c

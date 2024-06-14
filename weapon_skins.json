@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
 	{
 		"skin_id": 0,
@@ -126,3 +127,70 @@
 		"cases": [0]
 	}
 ]
+=======
+[
+	{
+		"skin_id": 1,
+		"name": "MP7 | Skulls",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/mp7_skulls_0.png",
+		"rarity": "mil_spec",
+		"cases": [1]
+	},
+	{
+		"skin_id": 2,
+		"name": "SG 553 | Ultraviolet",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/sg_553_ultraviolet_0.png",
+		"rarity": "mil_spec",
+		"cases": [1]
+	},
+	{
+		"skin_id": 3,
+		"name": "AUG | Wings",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/aug_wings_0.png",
+		"rarity": "mil_spec",
+		"cases": [1]
+	},
+	{
+		"skin_id": 4,
+		"name": "M4A1-S | Dark Water",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m4a1-s_dark_water_0.png",
+		"rarity": "restricted",
+		"cases": [1]
+	},
+	{
+		"skin_id": 5,
+		"name": "USP-S | Dark Water",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/usp-s_dark_water_0.png",
+		"rarity": "restricted",
+		"cases": [1]
+	},
+	{
+		"skin_id": 6,
+		"name": "Glock-18 | Dragon Tattoo",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/glock-18_dragon_tattoo_0.png",
+		"rarity": "restricted",
+		"cases": [1]
+	},
+	{
+		"skin_id": 7,
+		"name": "Desert Eagle | Hypnotic",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/desert_eagle_hypnotic_0.png",
+		"rarity": "classified",
+		"cases": [1]
+	},
+	{
+		"skin_id": 8,
+		"name": "AK-47 | Case Hardened",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/ak-47_case_hardened_0.png",
+		"rarity": "classified",
+		"cases": [1]
+	},
+	{
+		"skin_id": 9,
+		"name": "AWP | Lightning Strike",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/awp_lightning_strike_0.png",
+		"rarity": "covert",
+		"cases": [1]
+	}
+]
+>>>>>>> 437d3fc3d0912cc2460544b31f78db7016e11c2c
