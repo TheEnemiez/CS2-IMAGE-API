@@ -107,7 +107,7 @@
 		"souvenir": false,
 		"description": "The Glock 18 is a serviceable first-round pistol that works best against unarmored opponents and is capable of firing three-round bursts. It has been painted using a dragon decal over a metallic base coat.",
 		"subdescription": "In a fairy tale the knight always slays the dragon... but this is the real world - Valeria Jenner, Revolutionary",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/glock-18_dragon_tattoo_0.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/glock_18_dragon_tattoo_0.png",
 		"rarity": "restricted",
 		"availability": {
 			"FN": [true, true, false],
