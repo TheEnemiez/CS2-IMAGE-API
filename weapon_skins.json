@@ -67,7 +67,7 @@
 		"souvenir": false,
 		"description": "With a smaller magazine than its unmuffled counterpart, the silenced M4A1 provides quieter shots with less recoil and better accuracy. It has been painted in an aquatic-stripe pattern with charcoal metallic paints of various reflectivities over a chrome base coat.",
 		"subdescription": "Water gives life, but it can also take it...",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m4a1-s_dark_water_0.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m4a1_s_dark_water_0.png",
 		"rarity": "restricted",
 		"availability": {
 			"FN": [false, false, false],
@@ -87,7 +87,7 @@
 		"souvenir": false,
 		"description": "A fan favorite from Counter-Strike Source, the Silenced USP Pistol has a detachable silencer that gives shots less recoil while suppressing attention-getting noise. It has been painted in an aquatic-stripe pattern with charcoal metallic paints of various reflectivities over a chrome base coat.",
 		"subdescription": "Water gives life, but it can also take it...",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/usp-s_dark_water_0.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/usp_s_dark_water_0.png",
 		"rarity": "restricted",
 		"availability": {
 			"FN": [false, false, false],
