@@ -1,0 +1,95 @@
+* {
+	font-family: "Silkscreen";
+}
+
+body {
+	background-color: #2e2e2e;
+	color: #ffffff;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	display: block;
+	padding: 10px;
+	background-color: #3a3a3a;
+	border: 1px solid #555;
+	margin: 10px auto;
+	width: 90%;
+	max-width: 355px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-row {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+label {
+	margin-right: 10px;
+	flex: 1;
+	min-width: 110px; /* Ensures the labels are aligned */
+}
+
+input[type="text"],
+select {
+	flex: 2;
+	padding: 4px;
+	background-color: #333;
+	color: #dddddd;
+	border: 1px solid #444;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.price-input {
+	width: 0;
+}
+
+input[type="checkbox"] {
+	margin-right: 20px;
+}
+
+input[type="file"] {
+	background-color: #333;
+	color: #d4d4d4;
+	border: 1px solid #444;
+	padding: 4px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: #444;
+	color: #d4d4d4;
+	border: 1px solid #555;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+	background-color: #555;
+	color: #ffffff;
+}
+
+button:active {
+	background-color: #666;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+input[type="text"]::placeholder {
+	color: #aaaaaa;
+}
+
+select {
+	appearance: none;
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 8px 10px;
+}

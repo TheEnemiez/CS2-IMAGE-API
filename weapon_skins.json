@@ -1,20 +1,6 @@
 [
 	{
 		"skin_id": 0,
-		"name": "MP7 | Skulls",
-		"weapon_type": "SMG",
-		"stat_trak": true,
-		"souvenir": false,
-		"description": "Versatile but expensive, the German-made MP7 SMG is the perfect choice for high-impact close-range combat. It has been painted using a skull-patterned hydrographic with red or black accents.",
-		"subdescription": "A mass grave that fits snugly in the palm of your hands",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/mp7_skulls_0.png",
-		"rarity": "mil_spec",
-		"wear": [0.1, 0.26],
-		"price": [23.38, 26.58],
-		"cases": [0]
-	},
-	{
-		"skin_id": 1,
 		"name": "SG 553 | Ultraviolet",
 		"weapon_type": "Rifle",
 		"stat_trak": true,
@@ -23,12 +9,18 @@
 		"subdescription": "Elegant design paired with brutal intent",
 		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/sg_553_ultraviolet_0.png",
 		"rarity": "mil_spec",
-		"wear": [0, 1],
-		"price": [22.66, 120.4],
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
 		"cases": [0]
 	},
 	{
-		"skin_id": 2,
+		"skin_id": 1,
 		"name": "AUG | Wings",
 		"weapon_type": "Rifle",
 		"stat_trak": true,
@@ -37,8 +29,34 @@
 		"subdescription": "An eagle looks majestic until it's clawing your eyes out",
 		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/aug_wings_0.png",
 		"rarity": "mil_spec",
-		"wear": [0, 0.14],
-		"price": [24.57, 26.73],
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.14],
+		"cases": [0]
+	},
+	{
+		"skin_id": 2,
+		"name": "Mp7 | Skulls",
+		"weapon_type": "SMG",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Versatile but expensive, the German-made MP7 SMG is the perfect choice for high-impact close-range combat. It has been painted using a skull-patterned hydrographic with red or black accents.",
+		"subdescription": "A mass grave that fits snugly in the palm of your hands",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/mp7_skulls_0.png",
+		"rarity": "mil_spec",
+		"availability": {
+			"FN": [false, false, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.1, 0.26],
 		"cases": [0]
 	},
 	{
@@ -51,8 +69,14 @@
 		"subdescription": "Water gives life, but it can also take it...",
 		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m4a1-s_dark_water_0.png",
 		"rarity": "restricted",
+		"availability": {
+			"FN": [false, false, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
 		"wear": [0.1, 0.26],
-		"price": [89.04, 177.92],
 		"cases": [0]
 	},
 	{
@@ -65,8 +89,14 @@
 		"subdescription": "Water gives life, but it can also take it...",
 		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/usp-s_dark_water_0.png",
 		"rarity": "restricted",
+		"availability": {
+			"FN": [false, false, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
 		"wear": [0.1, 0.26],
-		"price": [86.14, 154.14],
 		"cases": [0]
 	},
 	{
@@ -79,8 +109,14 @@
 		"subdescription": "In a fairy tale the knight always slays the dragon... but this is the real world - Valeria Jenner, Revolutionary",
 		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/glock-18_dragon_tattoo_0.png",
 		"rarity": "restricted",
-		"wear": [0, 0.08],
-		"price": [109.37, 335.08],
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.08],
 		"cases": [0]
 	},
 	{
@@ -93,8 +129,14 @@
 		"subdescription": "You're not getting sleepy, you're passing out from blood loss",
 		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/desert_eagle_hypnotic_0.png",
 		"rarity": "classified",
-		"wear": [0, 0.08],
-		"price": [119.98, 183.99],
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.08],
 		"cases": [0]
 	},
 	{
@@ -107,22 +149,1354 @@
 		"subdescription": "A little color never hurt anyone",
 		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/ak-47_case_hardened_0.png",
 		"rarity": "classified",
-		"wear": [0, 1],
-		"price": [215.19, 1106.8],
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
 		"cases": [0]
 	},
 	{
 		"skin_id": 8,
 		"name": "AWP | Lightning Strike",
-		"weapon_type": "Sniper Rifle",
+		"weapon_type": "Rifle",
 		"stat_trak": true,
 		"souvenir": false,
 		"description": "High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. It has been painted with a lightning strike motif using anodizing effect paints over a metallic base coat.",
 		"subdescription": "Sometimes you don't need to strike the same place twice",
 		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/awp_lightning_strike_0.png",
 		"rarity": "covert",
-		"wear": [0, 0.08],
-		"price": [611.17, 924.2],
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.08],
+		"cases": [0]
+	},
+	{
+		"skin_id": 9,
+		"name": "M9 Bayonet | Safari Mesh",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been spray-painted using mesh fencing and cardboard cutouts as stencils.",
+		"subdescription": "A predator is a predator, no matter the environment",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_safari_mesh_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 10,
+		"name": "M9 Bayonet | Boreal Forest",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been painted using a forest camouflage hydrographic.",
+		"subdescription": "The woods can be a dangerous place... never travel alone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_boreal_forest_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 11,
+		"name": "M9 Bayonet | Forest DDPAT",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.",
+		"subdescription": "By the time you're close enough to notice the pixels it's already too late",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_forest_ddpat_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 12,
+		"name": "M9 Bayonet | Urban Masked",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been spray-painted using a tangle of masking tape as a stencil.",
+		"subdescription": "True power is demonstrated with subtle application",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_urban_masked_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 13,
+		"name": "M9 Bayonet | Stained",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been given a forced patina using lemon and mustard dripped onto the surface.",
+		"subdescription": "If you think it's messy now, wait until you see it under a blacklight",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_stained_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 14,
+		"name": "M9 Bayonet | Night",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has individual parts spray-painted solid colors in a night ops color scheme.",
+		"subdescription": "It's the whisper of the wind... it's the bite at your neck",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_night_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 15,
+		"name": "M9 Bayonet | Scorched",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been spray-painted in a sun-dappled pattern.",
+		"subdescription": "The Phoenix is not a symbol of destruction... it's a symbol of rebirth - Valeria Jenner, Revolutionary",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_scorched_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 16,
+		"name": "M9 Bayonet | Blue Steel",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been cold blued.",
+		"subdescription": "This is the malbec of weapon design - Booth, Arms Dealer",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_blue_steel_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 17,
+		"name": "M9 Bayonet | Case Hardened",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been color case-hardened through the application of wood charcoal at high temperatures.",
+		"subdescription": "A little color never hurt anyone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_case_hardened_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 18,
+		"name": "M9 Bayonet | Crimson Web",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been painted using a spider web-patterned hydrographic over a red base coat and finished with a semi-gloss topcoat.",
+		"subdescription": "Be careful where you walk, you never know where the web is spread",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_crimson_web_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 19,
+		"name": "M9 Bayonet | Slaughter",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been painted in a zebra-stripe pattern with aluminum and chrome paints with various reflectivities, and has then been covered with a tomato red candy coat.",
+		"subdescription": "Valeria doesn't pay Javier to ask questions... she pays him to pry out answers",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_slaughter_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.01, 0.26],
+		"cases": [0]
+	},
+	{
+		"skin_id": 20,
+		"name": "M9 Bayonet | Vanilla",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat.",
+		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_vanilla_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [false, false, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 21,
+		"name": "M9 Bayonet | Fade",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been painted by airbrushing transparent paints that fade together over a chrome base coat.",
+		"subdescription": "This isn't just a weapon, it's a conversation piece - Imogen, Arms Dealer In Training",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_fade_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.08],
+		"cases": [0]
+	},
+	{
+		"skin_id": 22,
+		"name": "Karambit | Fade",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been painted by airbrushing transparent paints that fade together over a chrome base coat.",
+		"subdescription": "This isn't just a weapon, it's a conversation piece - Imogen, Arms Dealer In Training",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_fade_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.08],
+		"cases": [0]
+	},
+	{
+		"skin_id": 23,
+		"name": "Karambit | Safari Mesh",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been spray-painted using mesh fencing and cardboard cutouts as stencils.",
+		"subdescription": "A predator is a predator, no matter the environment",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_safari_mesh_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 24,
+		"name": "Karambit | Scorched",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been spray-painted in a sun-dappled pattern.",
+		"subdescription": "The Phoenix is not a symbol of destruction... it's a symbol of rebirth - Valeria Jenner, Revolutionary",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_scorched_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 25,
+		"name": "Karambit | Forest DDPAT",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.",
+		"subdescription": "By the time you're close enough to notice the pixels it's already too late",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_forest_ddpat_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 26,
+		"name": "Karambit | Urban Masked",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been spray-painted using a tangle of masking tape as a stencil.",
+		"subdescription": "True power is demonstrated with subtle application",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_urban_masked_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 27,
+		"name": "Karambit | Boreal Forest",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been painted using a forest camouflage hydrographic.",
+		"subdescription": "The woods can be a dangerous place... never travel alone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_boreal_forest_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 28,
+		"name": "Karambit | Stained",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been given a forced patina using lemon and mustard dripped onto the surface.",
+		"subdescription": "If you think it's messy now, wait until you see it under a blacklight",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_stained_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 29,
+		"name": "Karambit | Night",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has individual parts spray-painted solid colors in a night ops color scheme.",
+		"subdescription": "It's the whisper of the wind... it's the bite at your neck",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_night_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 30,
+		"name": "Karambit | Blue Steel",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been cold blued.",
+		"subdescription": "This is the malbec of weapon design - Booth, Arms Dealer",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_blue_steel_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 31,
+		"name": "Karambit | Crimson Web",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been painted using a spider web-patterned hydrographic over a red base coat and finished with a semi-gloss topcoat.",
+		"subdescription": "Be careful where you walk, you never know where the web is spread",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_crimson_web_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 32,
+		"name": "Karambit | Slaughter",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been painted in a zebra-stripe pattern with aluminum and chrome paints with various reflectivities, and has then been covered with a tomato red candy coat.",
+		"subdescription": "Valeria doesn't pay Javier to ask questions... she pays him to pry out answers",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_slaughter_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.01, 0.26],
+		"cases": [0]
+	},
+	{
+		"skin_id": 33,
+		"name": "Karambit | Vanilla",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger.",
+		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_vanilla_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [false, false, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 34,
+		"name": "Karambit | Boreal Forest",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been painted using a forest camouflage hydrographic.",
+		"subdescription": "The woods can be a dangerous place... never travel alone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_boreal_forest_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 35,
+		"name": "Karambit | Case Hardened",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been color case-hardened through the application of wood charcoal at high temperatures.",
+		"subdescription": "A little color never hurt anyone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_case_hardened_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 36,
+		"name": "Gut Knife | Boreal Forest",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been painted using a forest camouflage hydrographic.",
+		"subdescription": "The woods can be a dangerous place... never travel alone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_boreal_forest_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 37,
+		"name": "Gut Knife | Night",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has individual parts spray-painted solid colors in a night ops color scheme.",
+		"subdescription": "It's the whisper of the wind... it's the bite at your neck",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_night_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 38,
+		"name": "Gut Knife | Stained",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been given a forced patina using lemon and mustard dripped onto the surface.",
+		"subdescription": "If you think it's messy now, wait until you see it under a blacklight",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_stained_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 39,
+		"name": "Gut Knife | Forest DDPAT",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.",
+		"subdescription": "By the time you're close enough to notice the pixels it's already too late",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_forest_ddpat_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 40,
+		"name": "Gut Knife | Blue Steel",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been cold blued.",
+		"subdescription": "This is the malbec of weapon design - Booth, Arms Dealer",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_blue_steel_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 41,
+		"name": "Gut Knife | Urban Masked",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been spray-painted using a tangle of masking tape as a stencil.",
+		"subdescription": "True power is demonstrated with subtle application",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_urban_masked_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 42,
+		"name": "Gut Knife | Vanilla",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease.",
+		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_vanilla_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [false, false, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 43,
+		"name": "Gut Knife | Scorched",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been spray-painted in a sun-dappled pattern.",
+		"subdescription": "The Phoenix is not a symbol of destruction... it's a symbol of rebirth - Valeria Jenner, Revolutionary",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_scorched_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 44,
+		"name": "Gut Knife | Safari Mesh",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been spray-painted using mesh fencing and cardboard cutouts as stencils.",
+		"subdescription": "A predator is a predator, no matter the environment",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_safari_mesh_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 45,
+		"name": "Gut Knife | Crimson Web",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been painted using a spider web-patterned hydrographic over a red base coat and finished with a semi-gloss topcoat.",
+		"subdescription": "Be careful where you walk, you never know where the web is spread",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_crimson_web_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 46,
+		"name": "Gut Knife | Slaughter",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been painted in a zebra-stripe pattern with aluminum and chrome paints with various reflectivities, and has then been covered with a tomato red candy coat.",
+		"subdescription": "Valeria doesn't pay Javier to ask questions... she pays him to pry out answers",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_slaughter_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.01, 0.26],
+		"cases": [0]
+	},
+	{
+		"skin_id": 47,
+		"name": "Gut Knife | Case Hardened",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been color case-hardened through the application of wood charcoal at high temperatures.",
+		"subdescription": "A little color never hurt anyone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_case_hardened_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 48,
+		"name": "Gut Knife | Fade",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease. It has been painted by airbrushing transparent paints that fade together over a chrome base coat.",
+		"subdescription": "This isn't just a weapon, it's a conversation piece - Imogen, Arms Dealer In Training",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_fade_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.08],
+		"cases": [0]
+	},
+	{
+		"skin_id": 49,
+		"name": "Flip Knife | Safari Mesh",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been spray-painted using mesh fencing and cardboard cutouts as stencils.",
+		"subdescription": "A predator is a predator, no matter the environment",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_safari_mesh_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 50,
+		"name": "Flip Knife | Urban Masked",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been spray-painted using a tangle of masking tape as a stencil.",
+		"subdescription": "True power is demonstrated with subtle application",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_urban_masked_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 51,
+		"name": "Flip Knife | Boreal Forest",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been painted using a forest camouflage hydrographic.",
+		"subdescription": "The woods can be a dangerous place... never travel alone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_boreal_forest_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 52,
+		"name": "Flip Knife | Scorched",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been spray-painted in a sun-dappled pattern.",
+		"subdescription": "The Phoenix is not a symbol of destruction... it's a symbol of rebirth - Valeria Jenner, Revolutionary",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_scorched_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 53,
+		"name": "Flip Knife | Stained",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been given a forced patina using lemon and mustard dripped onto the surface.",
+		"subdescription": "If you think it's messy now, wait until you see it under a blacklight",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_stained_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 54,
+		"name": "Flip Knife | Forest DDPAT",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.",
+		"subdescription": "By the time you're close enough to notice the pixels it's already too late",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_forest_ddpat_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 55,
+		"name": "Flip Knife | Blue Steel",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been cold blued.",
+		"subdescription": "This is the malbec of weapon design - Booth, Arms Dealer",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_blue_steel_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 56,
+		"name": "Flip Knife | Night",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has individual parts spray-painted solid colors in a night ops color scheme.",
+		"subdescription": "It's the whisper of the wind... it's the bite at your neck",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_night_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 57,
+		"name": "Flip Knife | Case Hardened",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been color case-hardened through the application of wood charcoal at high temperatures.",
+		"subdescription": "A little color never hurt anyone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_case_hardened_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 58,
+		"name": "Flip Knife | Vanilla",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable.",
+		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_vanilla_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [false, false, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 59,
+		"name": "Flip Knife | Crimson Web",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been painted using a spider web-patterned hydrographic over a red base coat and finished with a semi-gloss topcoat.",
+		"subdescription": "Be careful where you walk, you never know where the web is spread",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_crimson_web_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 60,
+		"name": "Flip Knife | Slaughter",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been painted in a zebra-stripe pattern with aluminum and chrome paints with various reflectivities, and has then been covered with a tomato red candy coat.",
+		"subdescription": "Valeria doesn't pay Javier to ask questions... she pays him to pry out answers",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_slaughter_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.01, 0.26],
+		"cases": [0]
+	},
+	{
+		"skin_id": 61,
+		"name": "Flip Knife | Fade",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable. It has been painted by airbrushing transparent paints that fade together over a chrome base coat.",
+		"subdescription": "This isn't just a weapon, it's a conversation piece - Imogen, Arms Dealer In Training",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_fade_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.08],
+		"cases": [0]
+	},
+	{
+		"skin_id": 62,
+		"name": "Bayonet | Forest DDPAT",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.",
+		"subdescription": "By the time you're close enough to notice the pixels it's already too late",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_forest_ddpat_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 63,
+		"name": "Bayonet | Urban Masked",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been spray-painted using a tangle of masking tape as a stencil.",
+		"subdescription": "True power is demonstrated with subtle application",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_urban_masked_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 64,
+		"name": "Bayonet | Boreal Forest",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been painted using a forest camouflage hydrographic.",
+		"subdescription": "The woods can be a dangerous place... never travel alone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_boreal_forest_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 65,
+		"name": "Bayonet | Night",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has individual parts spray-painted solid colors in a night ops color scheme.",
+		"subdescription": "It's the whisper of the wind... it's the bite at your neck",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_night_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 66,
+		"name": "Bayonet | Blue Steel",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been cold blued.",
+		"subdescription": "This is the malbec of weapon design - Booth, Arms Dealer",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_blue_steel_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 67,
+		"name": "Bayonet | Crimson Web",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been painted using a spider web-patterned hydrographic over a red base coat and finished with a semi-gloss topcoat.",
+		"subdescription": "Be careful where you walk, you never know where the web is spread",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_crimson_web_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 68,
+		"name": "Bayonet | Stained",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been given a forced patina using lemon and mustard dripped onto the surface.",
+		"subdescription": "If you think it's messy now, wait until you see it under a blacklight",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_stained_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 69,
+		"name": "Bayonet | Case Hardened",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been color case-hardened through the application of wood charcoal at high temperatures.",
+		"subdescription": "A little color never hurt anyone",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_case_hardened_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.0, 1.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 70,
+		"name": "Bayonet | Slaughter",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been painted in a zebra-stripe pattern with aluminum and chrome paints with various reflectivities, and has then been covered with a tomato red candy coat.",
+		"subdescription": "Valeria doesn't pay Javier to ask questions... she pays him to pry out answers",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_slaughter_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.01, 0.26],
+		"cases": [0]
+	},
+	{
+		"skin_id": 71,
+		"name": "Bayonet | Vanilla",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan.",
+		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_vanilla_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [false, false, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.0],
+		"cases": [0]
+	},
+	{
+		"skin_id": 72,
+		"name": "Bayonet | Fade",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been painted by airbrushing transparent paints that fade together over a chrome base coat.",
+		"subdescription": "This isn't just a weapon, it's a conversation piece - Imogen, Arms Dealer In Training",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_fade_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [false, false, false],
+			"WW": [false, false, false],
+			"BS": [false, false, false]
+		},
+		"wear": [0.0, 0.08],
+		"cases": [0]
+	},
+	{
+		"skin_id": 73,
+		"name": "Bayonet | Safari Mesh",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been spray-painted using mesh fencing and cardboard cutouts as stencils.",
+		"subdescription": "A predator is a predator, no matter the environment",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_safari_mesh_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
+		"cases": [0]
+	},
+	{
+		"skin_id": 74,
+		"name": "Bayonet | Scorched",
+		"weapon_type": "Knife",
+		"stat_trak": true,
+		"souvenir": false,
+		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan. It has been spray-painted in a sun-dappled pattern.",
+		"subdescription": "The Phoenix is not a symbol of destruction... it's a symbol of rebirth - Valeria Jenner, Revolutionary",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_scorched_0.png",
+		"rarity": "exceedingly_rare",
+		"availability": {
+			"FN": [true, true, false],
+			"MW": [true, true, false],
+			"FT": [true, true, false],
+			"WW": [true, true, false],
+			"BS": [true, true, false]
+		},
+		"wear": [0.06, 0.8],
 		"cases": [0]
 	}
 ]

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CS2 Skin Editor</title>
+		<link rel="stylesheet" href="cs2Skin.css" />
+	</head>
+	<body>
+		<form id="skinForm">
+			<div class="form-row">
+				<label for="weaponType">Weapon Type:</label>
+				<select id="weaponType">
+					<option value="">Select</option>
+					<option value="Pistol">Pistol</option>
+					<option value="Rifle">Rifle</option>
+					<option value="SMG">SMG</option>
+					<option value="Sniper Rifle">Sniper Rifle</option>
+					<option value="Shotgun">Shotgun</option>
+					<option value="Machine Gun">Machine Gun</option>
+					<option value="Knife">Knife</option>
+				</select>
+			</div>
+
+			<div class="form-row">
+				<label for="gun">Gun:</label>
+				<select id="gun"></select>
+			</div>
+
+			<div class="form-row">
+				<label for="skinName">Skin Name:</label>
+				<input type="text" id="skinName" />
+			</div>
+
+			<div class="form-row">
+				<label for="statTrak">StatTrak:</label>
+				<input type="checkbox" id="statTrak" />
+				<label for="souvenir">Souvenir:</label>
+				<input type="checkbox" id="souvenir" />
+			</div>
+
+			<div class="form-row">
+				<label for="description">Description:</label>
+				<input type="text" id="description" />
+			</div>
+
+			<div class="form-row">
+				<label for="subdescription">Subdescription:</label>
+				<input type="text" id="subdescription" />
+			</div>
+
+			<div class="form-row">
+				<label for="rarity">Rarity:</label>
+				<select id="rarity">
+					<option value="consumer_grade">Consumer Grade</option>
+					<option value="industrial_grade">Industrial Grade</option>
+					<option value="mil_spec">Mil-Spec</option>
+					<option value="restricted">Restricted</option>
+					<option value="classified">Classified</option>
+					<option value="covert">Covert</option>
+					<option value="exceedingly_rare">Exceedingly Rare</option>
+				</select>
+			</div>
+
+			<div class="form-row">
+				<label for="wear">Wear:</label>
+				<input type="text" id="wear" />
+			</div>
+
+			<div class="form-row">
+				<label for="priceNormal">Price Normal:</label>
+				<input type="text" id="priceMinNormal" class="price-input" placeholder="Min" />
+				<input type="text" id="priceMaxNormal" class="price-input" placeholder="Max" />
+			</div>
+
+			<div class="form-row">
+				<label for="priceStatTrak">Price StatTrak:</label>
+				<input type="text" id="priceMinStatTrak" class="price-input" placeholder="Min" />
+				<input type="text" id="priceMaxStatTrak" class="price-input" placeholder="Max" />
+			</div>
+
+			<div class="form-row">
+				<label for="priceSouvenir">Price Souvenir:</label>
+				<input type="text" id="priceMinSouvenir" class="price-input" placeholder="Min" />
+				<input type="text" id="priceMaxSouvenir" class="price-input" placeholder="Max" />
+			</div>
+
+			<div class="form-row">
+				<label for="case">Case:</label>
+				<select id="case"></select>
+			</div>
+
+			<div class="form-row">
+				<label for="casesFile">cases.json:</label>
+				<input type="file" id="casesFile" accept=".json" />
+			</div>
+
+			<div class="form-row">
+				<label for="weaponSkinsFile">ws.json:</label>
+				<input type="file" id="weaponSkinsFile" accept=".json" />
+			</div>
+
+			<div class="buttons">
+				<button type="button" onclick="saveData()">Save</button>
+				<button type="button" onclick="clearFields()">Clear</button>
+			</div>
+		</form>
+		<script src="cs2Skin.js"></script>
+	</body>
+</html>
