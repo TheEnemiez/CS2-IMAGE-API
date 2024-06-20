@@ -407,7 +407,7 @@
 		"souvenir": false,
 		"description": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat.",
 		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_vanilla_0.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/m9_bayonet_vanilla.png",
 		"rarity": "exceedingly_rare",
 		"availability": {
 			"FN": [true, true, false],
@@ -667,7 +667,7 @@
 		"souvenir": false,
 		"description": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger.",
 		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_vanilla_0.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/karambit_vanilla.png",
 		"rarity": "exceedingly_rare",
 		"availability": {
 			"FN": [true, true, false],
@@ -847,7 +847,7 @@
 		"souvenir": false,
 		"description": "The most notable feature of a gut knife is the gut hook on the spine of the blade. Originally popularized as an aid for field dressing game, the gut hook is also effective at cutting through fibrous materials like rope, webbing, or safety belts with ease.",
 		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_vanilla_0.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/gut_knife_vanilla.png",
 		"rarity": "exceedingly_rare",
 		"availability": {
 			"FN": [true, true, false],
@@ -1167,7 +1167,7 @@
 		"souvenir": false,
 		"description": "Flip knives sport a Persian-style back-swept blade with an acute point. While the point itself may be fragile, the overall design of the flip knife's design is surprisingly durable.",
 		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_vanilla_0.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/flip_knife_vanilla.png",
 		"rarity": "exceedingly_rare",
 		"availability": {
 			"FN": [true, true, false],
@@ -1427,7 +1427,7 @@
 		"souvenir": false,
 		"description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan.",
 		"subdescription": "The raw material of the weapon shines in all of its beauty. Sometimes, no paint is the best choice.",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_vanilla_0.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Weapons/bayonet_vanilla.png",
 		"rarity": "exceedingly_rare",
 		"availability": {
 			"FN": [true, true, false],
