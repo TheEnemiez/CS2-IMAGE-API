@@ -2,7 +2,7 @@
 	{
 		"case_id": 0,
 		"name": "CS:GO Weapon Case",
-		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Cases/1.png",
+		"image_url": "https://raw.githubusercontent.com/TheEnemiez/CS2-IMAGE-API/main/Cases/0.png",
 		"price": 90.58,
 		"skins": {
 			"mil_spec": [0, 1, 2],
